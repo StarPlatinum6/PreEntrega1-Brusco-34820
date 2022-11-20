@@ -1,10 +1,8 @@
-import cartIcon from './assets/cart2.svg'
-
 const CartWidget = (props) => {
 
     return (
         <button onClick={props.fn}>
-            <img src={cartIcon} alt='img-cart' style={{width: 30}}/>
+            <img src={'./images/cart2.svg'} alt='img-cart' style={{width: 30}}/>
             3
         </button>
     )

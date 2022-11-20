@@ -5,7 +5,7 @@ import CartWidget from '../CartWidget/CartWidget'
 const NavBar = (props) => {
 
     const clickAction = () => {
-        console.log ('El botón funciona')
+        alert ('El botón funciona')
     }
 
     return (
